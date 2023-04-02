@@ -46,3 +46,34 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: norse-bold;
+    src: url("fonts/Norse-Bold.otf");
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+}
+
+.left-section, .right-section {
+    height: 90vh;
+}
+
+.left-section {
+    width: 25vw;
+    height: 90vh;
+    background-color: aqua;
+}
+
+.right-section{
+    width: 60vw;
+    background-color: beige;
+}
