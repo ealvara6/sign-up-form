@@ -99,6 +99,28 @@ table {
 }
 
 .right-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     width: 60vw;
+    padding-left: 50px;
     background-color: beige;
+}
+
+.right-section :first-child {
+    font-size: 25px;
+}
+
+.right-section :first-child div {
+    padding: 25px 0px 50px;
+}
+
+.form-info, .submit {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+}
+
+.submit {
+    background-color: aqua;
 }
