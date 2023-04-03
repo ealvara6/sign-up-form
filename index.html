@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign Up Form</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="container">
@@ -17,10 +20,38 @@
         </div>
         <div class="right-section">
             <div>
-                This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <i>now</i> to get started
-                <div>you <i>know</i> you want to</div>
+                This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. <br> Sign up <em>now</em> to get started
+                <div>you <em>know</em> you want to</div>
             </div>
-            <div class="form-info"></div>
+            <div class="form-info">
+                <fieldset>
+                    <legend>Let's do this!</legend>
+                    <div>
+                        <label for="first-name">First Name</label>
+                        <input type="text" name="first-name" id="first-name">
+                    </div>
+                    <div>
+                        <label for="last-name">Last Name</label>
+                        <input type="text" name="last-name" id="last-name">
+                    </div>
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email">
+                    </div>
+                    <div>
+                        <label for="phone-number">Phone Number</label>
+                        <input type="tel" name="phone-number" id="phone-number">
+                    </div>
+                    <div>
+                        <label for="pwd">Password</label>
+                        <input type="password" name="pwd" id="pwd">
+                    </div>
+                    <div>
+                        <label for="pwd-confirm">Password Confirm</label>
+                        <input type="password" name="pwd-confirm" id="pwd-confirm">
+                    </div>
+                </fieldset>
+            </div>
             <div class="submit"></div>
         </div>
     </div>

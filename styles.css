@@ -57,6 +57,10 @@ table {
     src: url("fonts/Norse-Bold.otf");
 }
 
+body {
+    background-color: #f7f7f7;
+}
+
 .container {
     display: flex;
     justify-content: center;
@@ -102,25 +106,51 @@ table {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    font-family: roboto, sans-serif;
     width: 60vw;
-    padding-left: 50px;
     background-color: beige;
 }
 
-.right-section :first-child {
+.right-section > div {
+    padding-left: 50px;
+}
+
+.right-section > :first-child {
     font-size: 25px;
+    font-weight: bold;
+    padding-right: 150px;
 }
 
-.right-section :first-child div {
-    padding: 25px 0px 50px;
+.right-section > :first-child > div {
+    padding: 25px 0px;
 }
 
-.form-info, .submit {
+.form-info {
+    width: auto;
+    height: 300px;
+    background-color: white;
+}
+
+fieldset {
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+}
+
+fieldset > div {
+    padding: 0px 60px 25px 0px;
+}
+
+legend {
+    font-size: 25px;
+    font-weight: bold;
+    padding: 20px 0px;
+}
+
+input {
     width: 200px;
-    height: 200px;
-    background-color: black;
 }
 
-.submit {
-    background-color: aqua;
+input, label {
+    display: block;
 }
