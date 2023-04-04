@@ -61,6 +61,10 @@ body {
     background-color: #f7f7f7;
 }
 
+em {
+    font-style: italic;
+}
+
 .container {
     display: flex;
     justify-content: center;
@@ -160,6 +164,11 @@ input:focus {
     outline: none;
     border-color: #6d9ce8;
     box-shadow: 1px 1px 10px grey;
+}
+
+input:invalid {
+    border-width: 1px;
+    border-color: red;
 }
 
 label {
