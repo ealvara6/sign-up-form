@@ -107,8 +107,8 @@ body {
     flex-direction: column;
     justify-content: center;
     font-family: roboto, sans-serif;
-    width: 60vw;
-    background-color: beige;
+    width: 40vw;
+    background-color: white;
 }
 
 .right-section > div {
@@ -129,6 +129,7 @@ body {
     width: auto;
     height: 300px;
     background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 fieldset {
@@ -153,4 +154,15 @@ input {
 
 input, label {
     display: block;
+}
+
+.btn {
+    background-color: #477d4d;
+    box-shadow: none;
+    color: white;
+    font-size: large;
+    border-radius: 6%;
+    width: 200px;
+    height: 50px;
+    margin: 25px 0px;
 }
